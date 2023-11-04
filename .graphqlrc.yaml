@@ -1,4 +1,4 @@
-schema: https://api.wellipharma.com/graphql/
+schema: ${NEXT_PUBLIC_SALEOR_API_URL}
 documents: graphql/**/*.graphql
 extensions:
   codegen:
